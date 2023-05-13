@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                             jokesList.set(randomNumber,it.data.body()!!)
                             jokesViewModel.saveArrayList(jokesList)
                             AdapterRefresh(jokesList)
-                            Toast.makeText(this@MainActivity,"New Jokes updated at Position$randomNumber",Toast.LENGTH_LONG).show()
+                            Toast.makeText(this@MainActivity,"New Jokes updated at Position$ randomNumber",Toast.LENGTH_LONG).show()
                         }
                     }
                 }
